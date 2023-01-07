@@ -63,6 +63,12 @@ header nav li a {
     line-height: 27px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.btn-primary i,
+.btn-secondary i {
+    margin-right: 10px;
+}
+
 .btn-secondary {
     /* width: 150px;
     height: 64px; */
@@ -129,7 +135,7 @@ main {
 .about-me {
     text-align: center;
     background-color: #FFF8F3;
-    padding: 131px 157px;
+    padding: 110px 157px;
 }
 
 .section-title {
@@ -179,14 +185,13 @@ main {
 
 .work,
 .resume {
-    margin-top: 130px;
     text-align: center;
-    align-items: center;
+    margin: 100px 0px;
 }
 
 .container {
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: left;
 }
 
@@ -196,4 +201,80 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     margin: 0px 24px;
+}
+
+.resume {
+    margin: 10px 0px 100px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+line-height: 41px;
+color: #474747;
+margin: 60px 0px 0px;
+}
+
+.resume-summary {
+    margin: 0px 30px;
+}
+
+.resume-item {
+    padding: 30px 0px;
+}
+
+.resume-item h3 {
+    font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+color: #474747;
+margin-bottom: 10px;
+}
+
+.resume-item h5 {
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+}
+
+.resume-item p {
+    font-size: 16px;
+line-height: 28px;
+color: #757575;
+padding: 10px 0px 20px;
+}
+
+footer {
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    display: flex;
+}
+
+.social, 
+.contact {
+    margin: 0px 50px;
+    width: 50%;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    margin: 30px 0px;
+    padding: 0px;
+}
+
+.social ul li {
+    margin-right: 24px;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0px;
+    border: none;
 }
